@@ -1,0 +1,21 @@
+feeder : feeders.feeder_ntu.Feeder
+train_feeder_args:
+  data_path: /cvhci/temp/prgc/hdgcn_filtered/NTU60_CV.npz
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 8
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  bone: True
+
+test_feeder_args:
+  data_path: /cvhci/temp/prgc/st-gcn/data/stgcn_filtered/xview/val_data.npy
+  split: test
+  window_size: 8
+  p_interval: [0.95]
+  bone: True
+  debug: False

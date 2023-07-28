@@ -1,0 +1,13 @@
+[ Thu May  4 20:41:50 2023 ] Load weights from HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-10-12520.pt.
+[ Thu May  4 20:47:03 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-1-1252.pt.
+[ Thu May  4 20:47:07 2023 ] using warm up, epoch: 5
+[ Thu May  4 20:49:08 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-10-12520.pt.
+[ Thu May  4 20:49:12 2023 ] using warm up, epoch: 5
+[ Sun May 14 03:54:26 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-50-22450.pt.
+[ Sun May 14 03:55:47 2023 ] using warm up, epoch: 5
+[ Sun May 14 03:58:04 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-50-22450.pt.
+[ Sun May 14 03:58:07 2023 ] using warm up, epoch: 5
+[ Sun May 14 04:00:04 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-50-22450.pt.
+[ Sun May 14 04:00:07 2023 ] using warm up, epoch: 5
+[ Sun May 14 04:01:09 2023 ] Load weights from /home/prgc/acrionreco-with-noisy-data-topic-c/HD-GCN/work_dir/ntu_hdgcn/cross-subject/joint_CoM_1/runs-50-22450.pt.
+[ Sun May 14 04:01:11 2023 ] using warm up, epoch: 5

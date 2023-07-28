@@ -1,0 +1,5 @@
+epoch:   1 | train loss: 4.0501 | train accuracy:  5.483 | test loss: 4.0605 | test accuracy:  6.543 | epoch runtime: 10195.51 sec | best accuracy:  6.543 @ epoch: 001
+epoch:   2 | train loss: 3.9533 | train accuracy:  8.700 | test loss: 3.9646 | test accuracy:  5.178 | epoch runtime: 10062.48 sec | best accuracy:  6.543 @ epoch: 001
+epoch:   3 | train loss: 3.9156 | train accuracy: 11.223 | test loss: 4.2882 | test accuracy:  7.908 | epoch runtime: 10053.63 sec | best accuracy:  7.908 @ epoch: 003
+epoch:   4 | train loss: 3.8650 | train accuracy: 13.822 | test loss: 3.9709 | test accuracy:  9.789 | epoch runtime: 10045.42 sec | best accuracy:  9.789 @ epoch: 004
+epoch:   5 | train loss: 3.8262 | train accuracy: 16.628 | test loss: 3.7494 | test accuracy: 12.184 | epoch runtime: 10039.40 sec | best accuracy: 12.184 @ epoch: 005

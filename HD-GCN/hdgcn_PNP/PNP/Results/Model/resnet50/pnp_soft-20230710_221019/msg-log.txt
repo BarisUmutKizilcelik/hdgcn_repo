@@ -1,0 +1,1 @@
+Result Path: Results/Model/resnet50/pnp_soft-20230710_221019

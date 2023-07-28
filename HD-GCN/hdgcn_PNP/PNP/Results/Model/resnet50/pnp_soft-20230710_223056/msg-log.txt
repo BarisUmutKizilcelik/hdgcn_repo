@@ -1,0 +1,4 @@
+Result Path: Results/Model/resnet50/pnp_soft-20230710_223056
+Categories: 60
+Optimizer: sgd
+Accumulate gradients every 1 iterations --> Acutal batch size is 16
