@@ -14,7 +14,7 @@ We implement our methods by PyTorch on Quadro RTX 6000 and 8000 GPU. The environ
 
 ## Installation
 
-Please find installation instructions for HDGCN in [README.md](HD-GCN/README.md) in HDGCN folder and follow the instructions in [README.md](HD-GCN/README.md) to prepare the NTU60 dataset for HDGCN.
+Please find installation instructions for HDGCN in [README.md](HD-GCN/README.md) in HD-GCN folder and follow the instructions in [README.md](HD-GCN/README.md) to prepare the NTU60 dataset for HDGCN.
 
 ## Experiments
 
@@ -24,12 +24,14 @@ In this repository, we provide the subset we used for this project. You should d
 
 To generate noise labels, you can run the [add_noise.py](HD-GCN/add_noise.py) in the script folder with any noise proportion.
 
+To run HDGCN using NTU60 dataset with noisy labels, please follow the instructions in [README.md](HD-GCN/README.md) in HD-GCN folder.
 
-Here is a training example: 
+To run Robust EL using NTU60 dataset with noisy labels, please follow the instructions in [README.md](HD-GCN/CDR/README.md) in CDR folder.
+
+
+Here is a training example for Robust EL: 
 ```bash
-python tools/run_net.py \
-  --cfg configs/Kinetics/MViTv2_S_16x4.yaml \
-  DATA.PATH_TO_DATA_DIR path_to_your_dataset \
+python3 main.py --dataset ntu60
 ```
 
 To perform test, you can set the TRAIN.ENABLE to False, and do not forget to pass the path to the model you want to test to TEST.CHECKPOINT_FILE_PATH.
