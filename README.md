@@ -34,7 +34,7 @@ Here is a training example for Robust EL:
 python3 main.py --dataset ntu60
 ```
 
-To perform test, you can set the TRAIN.ENABLE to False, and do not forget to pass the path to the model you want to test to TEST.CHECKPOINT_FILE_PATH.
+To run PNP, firstly you need create a new dataset for AimCLR. You can run [aimclr_gen_data_for_hdgcn.py](HD-GCN/aimclr_gen_data_for_hdgcn.py) to create new NTU60 dataset. Then please follow [README.md](HD-GCN/hdgcn_PNP/PNP/README.md)
 
 
 ## Visualization
