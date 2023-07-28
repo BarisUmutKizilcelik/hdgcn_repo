@@ -10,7 +10,7 @@ import numpy as np
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 
-from CDR.hdgcn.tools import get_groups
+from hdgcn.tools import get_groups
 
 def import_class(name):
     components = name.split('.')
