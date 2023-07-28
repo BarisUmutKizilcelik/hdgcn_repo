@@ -26,13 +26,16 @@ To generate noise labels, you can run the [add_noise.py](HD-GCN/add_noise.py) in
 
 To run HDGCN using NTU60 dataset with noisy labels, please follow the instructions in [README.md](HD-GCN/README.md) in HD-GCN folder.
 
-Here is a training example for Robust EL: 
+Here is a training example for HDGCN: 
 ```bash
 python main.py --config HD-GCN/config/nturgbd60-cross-view/bone_com_1.yaml --device 0
 ```
+Here is a test example for HDGCN: 
+```bash
+python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
+```
 
 To run Robust EL using NTU60 dataset with noisy labels, please follow the instructions in [README.md](HD-GCN/CDR/README.md) in CDR folder.
-
 
 Here is a training example for Robust EL: 
 ```bash
