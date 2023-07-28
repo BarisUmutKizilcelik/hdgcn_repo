@@ -14,7 +14,7 @@ We implement our methods by PyTorch on Quadro RTX 6000 and 8000 GPU. The environ
 
 ## Installation
 
-Please find installation instructions for PyTorch and PySlowFast in [INSTALL.md](INSTALL.md) and follow the instructions in [DATASET.md](slowfast/datasets/DATASET.md) to prepare the datasets in Kinetics format.
+Please find installation instructions for HDGCN in [README.md](HDGCN/README.md) in HDGCN folder and follow the instructions in [README.md](HDGCN/README.md) to prepare the NTU60 dataset for HDGCN.
 
 ## Experiments
 
