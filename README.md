@@ -22,7 +22,7 @@ We verify the effectiveness of the PNP method and Robust Early-Learning method o
 
 In this repository, we provide the subset we used for this project. You should download the NTU60 dataset and create the subset according to the csv files. The dataset should be put into the same folder of labels as the instructions in [README.md](HD-GCN/README.md).
 
-To generate noise labels, you can run the [add_noise.py](slowfast/script/generate_noisy_label.ipynb) in the script folder with any noise proportion.
+To generate noise labels, you can run the [add_noise.py](HD-GCN/add_noise.py) in the script folder with any noise proportion.
 
 
 Here is a training example: 
